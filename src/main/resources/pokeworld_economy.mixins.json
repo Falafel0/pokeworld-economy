@@ -1,0 +1,19 @@
+{
+  "package": "pokeworld.economy.mixin",
+  "refmap": "pokeworld_economy.refmap.json",
+  "target": "@env(DEFAULT)",
+  "minVersion": "0.8",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "BankMixin",
+    "MCAVillagerCommandMixin",
+    "MCAGiftPredicateMixin",
+    "NOCurrencyHelperMixin",
+    "NOVillagerTradesRegistryMixin"
+  ],
+  "client": [],
+  "server": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

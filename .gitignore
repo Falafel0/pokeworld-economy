@@ -1,0 +1,24 @@
+# Binaries — мод jar'ы не коммитим, только исходники
+*.jar
+
+# Gradle build artifacts
+.gradle/
+build/
+out/
+
+# IDE файлы
+.idea/
+*.iml
+.vscode/
+*.class
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Scratch dumps (они в отдельной директории вне репо)
+scratch/
+*.tmp
+
+# NeoForge run dirs (если будет локальная разработка)
+runs/
